@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <com.example.leon.myapplication.StateButton
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_simple_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Service" />
+
+    <com.example.leon.myapplication.StateButton
+        android:id="@+id/btn_bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service" />
+
+    <com.example.leon.myapplication.StateButton
+        android:id="@+id/btn_intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Service" />
+
+    <com.example.leon.myapplication.StateButton
+        android:id="@+id/btn_messenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messenger" />
+
+    <com.example.leon.myapplication.StateButton
+        android:id="@+id/btn_aidl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AIDL" />
+
+</LinearLayout>
